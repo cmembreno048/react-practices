@@ -28,6 +28,7 @@ export function App(){
         .then(res => res.json())
         .then(response => {
             const { url } = response
+            // this API dont work anymore
             setImageUrl('https://cataas.com/cat')
         })
         
